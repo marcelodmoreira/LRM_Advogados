@@ -86,7 +86,7 @@ article{
     text-align: center;
     max-width: 1440px;
     min-width: 350px;
-    background-color: green;
+    
 
     
 }
@@ -118,7 +118,6 @@ margin-bottom: 20px;
     text-align: center;
     background-color: white;
     max-width: 350px;
-    margin-inline: 50px;
     margin-top: 40px;
     display: inline-block;
     vertical-align: top;
@@ -142,7 +141,7 @@ margin-bottom: 20px;
     padding: 10px;
     font-size: 15pt;
     font-family: 'MONTSERRAT-REGULAR';
-    text-align: justify;
+    text-align: left;
 }
 
 #divsobrenos{
@@ -153,7 +152,6 @@ margin-bottom: 20px;
     margin-top: 50px;
     margin-left: 10px;
     display: inline-block;
-    background-color: black;
     
     
 }
@@ -166,13 +164,12 @@ margin-bottom: 20px;
 }
 
 .Pdescricao{
-
+    text-align: left;
     font-size: 20pt;
     font-family: 'MONTSERRAT-REGULAR';
     max-width: 900px;
     vertical-align:top;
     display: inline-block;
-    background-color: red;
 }
 
 
@@ -200,7 +197,6 @@ margin-bottom: 20px;
     margin-top: 50px;
     margin-left: 10px;
     display: inline-block;
-    background-color: black;
     
 }
 
@@ -222,6 +218,18 @@ margin-bottom: 20px;
     display: inline-block;
     vertical-align: top;
     width: 40%;
+}
+
+#divdiferencial ul{
+
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'MONTSERRAT-REGULAR';
+    max-width: 900px;
+    vertical-align:top;
+    list-style-position: inside;
+    display: inline-block;
+   
 }
 
 /*#divdiferencial p{    
