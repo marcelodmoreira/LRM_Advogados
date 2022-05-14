@@ -40,8 +40,9 @@
 body{
 
     background-color: var(--cor6);
-    min-width: 300px;
-    max-width: 1000;
+    min-width: 350px;
+    max-width: 1440px;
+    text-align: center;
 }
 
 
@@ -80,14 +81,18 @@ nav > a:hover{
     max-width: 1000px;
 }*/
 
-article{
-    
-    margin: auto;
+article{  
+
+    text-align: center;
+    max-width: 1440px;
+    min-width: 350px;
+    background-color: green;
+
     
 }
 
 article h1{
-
+    text-align: left;
     color: var(--cor2);
     font-size: 35pt;
     font-family: 'Montserrat-Medium';
@@ -98,7 +103,7 @@ article h1{
 hr{
 
 background-color: var(--cor1);
-width: 500px;
+max-width: 350px;
 height: 10px;
 border: none;
 border-radius: 20px;
@@ -141,13 +146,14 @@ margin-bottom: 20px;
 }
 
 #divsobrenos{
-
-    text-align: justify;
-    width: 80%;
+    text-align: center;
+    max-width: 1440px;
+    min-width: 350px;
     padding: 10px;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 10px;
     display: inline-block;
+    background-color: black;
     
     
 }
@@ -163,9 +169,10 @@ margin-bottom: 20px;
 
     font-size: 20pt;
     font-family: 'MONTSERRAT-REGULAR';
-    width: 50%;
+    max-width: 900px;
     vertical-align:top;
     display: inline-block;
+    background-color: red;
 }
 
 
@@ -187,19 +194,22 @@ margin-bottom: 20px;
 }
 
 #divdiferencial{
-    text-align: justify;
-    width: 80%;
+    max-width: 1440px;
+    min-width: 350px;
     padding: 10px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 10px;
     display: inline-block;
+    background-color: black;
     
 }
 
 #divdiferencial img{
-    margin-left: 50px;
+
+    max-width: 400px;
     vertical-align: top;
     display: inline-block;
+    
 }
 
 }
@@ -227,11 +237,11 @@ margin-bottom: 20px;
 }*/
 
 #divqualidade{
-
-    width: 80%;
+    text-align: center;
+    max-width: 1440px;
     padding: 10px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 20px;
     display: inline-block;
 }
 
@@ -247,11 +257,9 @@ margin-bottom: 20px;
 }*/
 
 #divqualidade img{
-
-    width: 40%;
+    max-width: 100%;
     vertical-align: top;
     margin-top: 50px;
-    margin-left: 100px;
     display: inline-block;
 }
 
@@ -274,7 +282,7 @@ margin-bottom: 20px;
 footer{
     
     background-color: var(--cor3);
-    margin-bottom: 5px;
+    
   
        
     
@@ -288,12 +296,19 @@ footer  h1{
    
 }
 
-#divcontatos{
+footer h2{
+    text-align: center;
+    font-family: 'MONTSERRAT-SEMIBOLD';
+    margin-top: 40px;
+    color: white;
+}
 
+#divcontatos{
+   
     padding: 20px;
     margin-left: 30px;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
        
 }
 
@@ -309,10 +324,9 @@ footer  h1{
 
 }
 #divcontatos img{
-
-    margin-inline: 5px;
+   
     display: inline-block;
-    height: 30px;
+    height: 40px;
     vertical-align: text-top;
     
 }
