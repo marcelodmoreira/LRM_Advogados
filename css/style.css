@@ -40,7 +40,7 @@
 body{
 
     background-color: var(--cor6);
-    min-width: 600px;
+    min-width: 450px;
     max-width: 1440px;
     text-align: center;
 }
@@ -82,8 +82,7 @@ nav > a:hover{
 article{  
 
     text-align: center;
-    max-width: 1440px;
-    min-width: 450px;
+    width: 100%;
     
 
     
@@ -302,8 +301,7 @@ margin-bottom: 20px;
 footer{
     
     background-color: var(--cor3);
-    max-width: 1440px;
-    min-width: 600px;
+    width: 100%;
     
   
        
