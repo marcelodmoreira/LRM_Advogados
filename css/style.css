@@ -181,6 +181,7 @@ margin-bottom: 20px;
 }
 
 .Pdescricao{
+    padding: 5px;
     text-align: left;
     font-size: 20pt;
     font-family: 'MONTSERRAT-REGULAR';
@@ -233,7 +234,7 @@ margin-bottom: 20px;
 #divdiferencial ul{
 
     text-align: left;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 5px 0px 15px;
     font-size: 18pt;
     font-family: 'MONTSERRAT-REGULAR';
     max-width: 900px;
