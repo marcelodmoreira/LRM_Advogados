@@ -117,14 +117,20 @@ margin-bottom: 20px;
 
     text-align: center;
     background-color: white;
-    max-width: 350px;
+    max-width: 450px;
     margin-top: 40px;
+    margin-inline: 5px;
     display: inline-block;
     vertical-align: top;
     border: 2px black;
     border-style: solid;
     border-radius: 0px 0px 10px 0px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.521);
+}
+
+.divatuacoes img{
+
+    width: 100%;
 }
 
 .h2atuacoes{
@@ -142,6 +148,19 @@ margin-bottom: 20px;
     font-size: 15pt;
     font-family: 'MONTSERRAT-REGULAR';
     text-align: left;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+.divatuacoes ul{
+
+    padding: 10px;
+    font-size: 15pt;
+    font-family: 'MONTSERRAT-REGULAR';
+    text-align: left;
+    list-style-position: inside;
+    line-height: 1.5em;
+
 }
 
 #divsobrenos{
@@ -170,17 +189,10 @@ margin-bottom: 20px;
     max-width: 900px;
     vertical-align:top;
     display: inline-block;
+    text-indent: 30px;
+    line-height: 1.5em;
 }
 
-
-/*#divsobrenos p{
-
-    font-size: 20pt;
-    font-family: 'MONTSERRAT-REGULAR';
-    width: 50%;
-    vertical-align:top;
-    display: inline-block;
-}*/
 
 
 #divsobrenos img{
@@ -223,6 +235,7 @@ margin-bottom: 20px;
 #divdiferencial ul{
 
     text-align: left;
+    padding: 0px 0px 0px 15px;
     font-size: 18pt;
     font-family: 'MONTSERRAT-REGULAR';
     max-width: 900px;
@@ -316,7 +329,7 @@ footer h2{
     padding: 20px;
     margin-left: 30px;
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
        
 }
 
@@ -333,8 +346,9 @@ footer h2{
 }
 #divcontatos img{
    
+    margin-inline: 20px;
     display: inline-block;
-    height: 40px;
+    height: 50px;
     vertical-align: text-top;
     
 }
