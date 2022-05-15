@@ -40,7 +40,7 @@
 body{
 
     background-color: var(--cor6);
-    min-width: 500px;
+    min-width: 600px;
     max-width: 1440px;
     text-align: center;
 }
@@ -298,7 +298,7 @@ footer{
     
     background-color: var(--cor3);
     max-width: 1440px;
-    min-width: 450px;
+    min-width: 600px;
     
   
        
