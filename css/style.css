@@ -40,7 +40,7 @@
 body{
 
     background-color: var(--cor6);
-    min-width: 450px;
+    min-width: 500px;
     max-width: 1440px;
     text-align: center;
 }
@@ -222,7 +222,6 @@ margin-bottom: 20px;
 }
 
 #divdiferencial h1{
-
    
     margin-top: 50px;
     margin-left: 550px;
